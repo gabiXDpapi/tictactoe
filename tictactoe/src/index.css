@@ -1,8 +1,7 @@
-/* Reset & font */
 body {
   margin: 0;
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  background: linear-gradient(135deg, #f0f4ff, #e4f1ff);
+  background: radial-gradient(circle, #ffffff, #c9d0ff);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +38,7 @@ body {
   display: flex;
 }
 
-/* Each square */
+
 .square {
   width: 80px;
   height: 80px;
