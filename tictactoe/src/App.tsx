@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Game from './components/Game';
 
 export default function App() {
   return <Game />;
+<<<<<<< Updated upstream
 }
 
 function Square({ value, onSquareClick }: SquareProps): JSX.Element {
@@ -108,4 +110,6 @@ function calculateWinner(squares: SquareValue[]): SquareValue {
     }
   }
   return null;
+=======
+>>>>>>> Stashed changes
 }
