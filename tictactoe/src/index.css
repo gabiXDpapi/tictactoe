@@ -45,16 +45,16 @@ body {
   margin: 4px;
   font-size: 2rem;
   font-weight: bold;
-  border: 2px solid #4a90e2;
+  border: 2px solid #002fff;
   border-radius: 10px;
   background: #f9fbff;
   color: #333;
   cursor: pointer;
   transition: all 0.2s ease;
-}
+}s
 
 .square:hover {
-  background: #e6f0ff;
+  background: #bec7da;
   transform: scale(1.05);
 }
 
@@ -62,7 +62,7 @@ body {
 .square.winner {
   background: #4a90e2;
   color: #fff;
-  border-color: #357ab7;
+  border-color: #002fff;
 }
 
 
@@ -80,7 +80,7 @@ body {
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
   background: #f0f4ff;
-  border: 1px solid #d0daee;
+  border: 1px solid #002fff;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.2s;
